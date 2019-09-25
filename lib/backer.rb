@@ -6,7 +6,7 @@ attr_reader :backed_projects, :name
 
 @@all = []
 
-def initialize(backer)
+def initialize(name)
   @backer = backer
   @backed_projects = []
   @name = name
