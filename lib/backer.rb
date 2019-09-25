@@ -17,7 +17,9 @@ def back_project(project)
   project.add_backer(self) unless project.backers.include?(self)
 end
 
+def add_backer
 
+end
 
 
 
